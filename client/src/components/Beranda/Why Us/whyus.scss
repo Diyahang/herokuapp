@@ -1,0 +1,19 @@
+.whyus {
+  font-size: 14px;
+  line-height: 36px;
+  margin-left: 2rem;
+  .card {
+    .card-body {
+      img {
+        margin-bottom: 4px;
+      }
+    }
+    max-height: 100px;
+    .card-text {
+      font-size: 14px;
+    }
+    .why-title {
+      line-height: 36px;
+    }
+  }
+}

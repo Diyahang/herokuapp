@@ -1,0 +1,54 @@
+.sidebarCars {
+  align-items: center;
+  text-align: center;
+  flex: 0.4;
+  border: 0.5px solid rgb(230, 227, 227);
+  min-height: 100vh;
+  background-color: #0d28a6;
+
+  hr {
+    height: 0;
+    border: 0.5px solid rgb(230, 227, 227);
+  }
+
+  .top {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+  }
+
+  .center {
+    align-items: center;
+    justify-content: center;
+
+    .order {
+      background-color: #ffffff80;
+    }
+
+    .dash,
+    .order {
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      padding: 2px;
+      margin-top: 0.5rem;
+
+      p {
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+      }
+
+      // &:hover {
+      //   background-color: #ffffff80;
+      // }
+
+      .icon {
+        font-size: 36px;
+        color: white;
+      }
+    }
+  }
+}

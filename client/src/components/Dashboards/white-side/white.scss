@@ -1,0 +1,25 @@
+.white {
+  border: 0.5px solid white;
+  min-height: 100vh;
+  background-color: white;
+
+  .title {
+    margin-top: 0.5rem;
+    padding: 14px;
+    font-weight: 700;
+    font-size: 24px;
+    color: gray;
+  }
+
+  .sub-title {
+    margin-top: 0.5rem;
+    padding: 14px;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #ece8ff;
+
+    &:hover {
+      background-color: #ece8ff;
+    }
+  }
+}

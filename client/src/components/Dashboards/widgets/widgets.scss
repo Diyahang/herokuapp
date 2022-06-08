@@ -1,0 +1,22 @@
+.widget {
+  display: flex;
+
+  .btn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 0px;
+    border: 1px solid #0d28a6;
+    margin-right: 6px;
+    height: 36px;
+
+    &:hover {
+      background-color: #cfd4ed;
+    }
+  }
+  .active {
+    background-color: #cfd4ed;
+    border-radius: 0px;
+    border: 1px solid #0d28a6;
+  }
+}

@@ -1,0 +1,46 @@
+.nav {
+  height: 66px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+  background-color: white;
+  // justify-content: space-between;
+
+  .left {
+    display: flex;
+    padding: 6px;
+    margin-left: 10px;
+  }
+
+  .wrapper {
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    .search {
+      display: flex-end;
+      align-items: end;
+      margin-right: 16px;
+
+      border: 0.5px solid lightgray;
+      padding: 3px;
+
+      input {
+        border: none;
+        outline: none;
+        background: transparent;
+
+        &::placeholder {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .items {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

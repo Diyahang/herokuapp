@@ -1,0 +1,153 @@
+body {
+  font-family: Helvetica;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 54px;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+#section-1 {
+  background-color: #f1f3ff;
+}
+
+.item {
+  padding-right: 2rem;
+}
+
+.navtext {
+  align-items: center;
+  color: #000000;
+}
+
+.menu {
+  list-style: none;
+  display: inline;
+}
+
+.menu_item {
+  display: inline-block;
+  margin-right: 32px;
+}
+
+.menu_item a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu_item a:hover {
+  font-weight: 700;
+  color: black;
+}
+
+.Hero button:hover,
+.Search button:hover {
+  border: 0;
+  border-radius: 2px;
+  padding: 8px 12px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  background-color: #5cb85f;
+}
+
+.Hero {
+  padding-top: 60px;
+  background-color: #f1f3ff;
+}
+
+/* Footer */
+.footer {
+  padding: 60px 0 30px 126px;
+}
+.footer-link p {
+  line-height: 24px;
+  align-items: center;
+  margin-left: 0px;
+  font-weight: 500;
+  margin-left: 6rem;
+}
+
+.footer-link p {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-link p:hover {
+  color: black;
+  font-weight: 700;
+}
+
+.footer-img {
+  margin-right: 10px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 80% !important;
+  }
+  .Hero {
+    margin-left: 10%;
+    background-color: #f1f3ff;
+  }
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.listItem {
+  margin-right: 15px;
+  margin-top: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  margin-top: 4px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.DashboardContent {
+  background-color: rgb(236, 236, 236);
+  width: 79%;
+  height: 90vh;
+  position: absolute;
+  margin-top: 4.6rem;
+  margin-left: 17.6rem;
+}
+
+.navboard {
+  margin-left: 4.3rem;
+  position: absolute;
+}
+
+.blue-side {
+  color: white;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.nav-extend {
+  background-color: white;
+}
+
+.sidebar .center {
+  align-items: center;
+  justify-content: center;
+}

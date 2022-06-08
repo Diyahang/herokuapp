@@ -1,0 +1,69 @@
+.data-car {
+  // display: grid;
+  // grid-template-columns: repeat(3);
+  .top {
+    .title {
+      font-weight: bold;
+    }
+  }
+
+  .page {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+    .add-new {
+      margin-right: 18px;
+      // background-color: #0d28a6;
+      color: #0d28a6;
+      border-radius: 4px;
+      padding: 10px;
+      border: 2px solid #0d28a6;
+      font-size: 18px;
+
+      &:hover {
+        background-color: #0d28a6;
+        color: white;
+      }
+    }
+  }
+
+  .line {
+    .title-table {
+      margin-left: 10px;
+    }
+  }
+
+  .listCars {
+    .card {
+      height: 18rem;
+      // max-width: 40rem;
+
+      .card-title {
+        font-weight: 400;
+        font-size: 14px;
+      }
+      .card-text {
+        font-weight: 700;
+        font-size: 16px;
+      }
+      .rent-duration {
+        font-weight: 300;
+        font-size: 14px;
+      }
+      .time-updated {
+        font-weight: 300;
+        font-size: 14px;
+      }
+      // .no-gutters {
+      //   justify-content: space-between;
+      //   padding: 10px 10px 0px 10px;
+      //   button {
+      //     .btn {
+      //       width: 28%;
+      //     }
+      //   }
+      // }
+    }
+  }
+}

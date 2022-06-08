@@ -1,0 +1,23 @@
+.tableCar {
+  .line {
+    font-weight: bold;
+    border-left: 6px solid #0d28a6;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    height: 1.4rem;
+    .title-table {
+      margin-left: 10px;
+    }
+  }
+
+  .table {
+    .headCell {
+      background-color: #dfdaf5;
+    }
+
+    .cellWrapper {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

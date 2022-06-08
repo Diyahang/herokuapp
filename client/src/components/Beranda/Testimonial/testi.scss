@@ -1,0 +1,72 @@
+.testi {
+  .client {
+    align-items: center;
+    .testie {
+      align-items: center;
+      background: #f1f3ff;
+      display: flex;
+      max-width: 608px;
+      max-height: 270px;
+      padding: 20px 0;
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 8px;
+    }
+    .carousel-item {
+      .holder-left {
+        img {
+          width: 80px;
+          height: 80px;
+          margin-top: 48px;
+        }
+      }
+
+      .holder-right {
+        .active-star {
+          color: #f9cc00;
+          margin-bottom: 6px;
+        }
+
+        .active-star:hover {
+          color: #f9a825;
+          cursor: pointer;
+        }
+        p {
+          position: static;
+          font-family: Helvetica;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 20px;
+          color: #000000;
+          flex: none;
+          order: 1;
+          flex-grow: 0;
+          margin: 10px 5px;
+        }
+      }
+    }
+
+    .controls {
+      button {
+        border-radius: 50% !important;
+        position: relative;
+        display: inline;
+        width: 32px;
+        height: 32px;
+
+        &:hover {
+          border: none;
+          background-color: #5cb85f;
+          color: black !important;
+          svg {
+            display: block;
+            margin-inline: auto;
+            path {
+              stroke: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.home {
+  display: flex;
+  background-color: rgb(247, 247, 247);
+
+  .homeContainer {
+    flex: 6;
+
+    .charts {
+      display: flex;
+      padding: 0;
+      margin: 0;
+
+      .subside {
+        min-width: 14%;
+      }
+
+      .listContainer {
+        padding: 20px;
+        margin: 0;
+        max-width: 100%;
+
+        .listTitle {
+          -webkit-box-shadow: 2px 4px 10px 1px rgba(227, 230, 70, 0.47);
+          box-shadow: 2px 4px 10px 1px rgba(52, 168, 68, 0.47);
+          padding: 20px;
+          margin: 20px;
+
+          .titleList {
+            font-weight: 500;
+            color: rgb(243, 93, 93);
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+}
